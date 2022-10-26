@@ -1,0 +1,30 @@
+.login-page {
+    background-color: #224180;
+}
+
+.form-control {
+    border-radius: 3px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #224180;
+}
+
+.login-page .inputarea {
+    position: relative;
+}
+
+.login-page .inputarea i {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    color: #224180;
+}
+
+.login-page .inputarea input {
+    padding-left: 33px;
+    border-color: #224180;
+}
+

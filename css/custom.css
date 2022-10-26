@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+    --major: #182a50;
+    --mainFont: "Roboto", sans-serif
+}
+
+body {
+    font-family: var(--mainFont);
+}
+.bg-gradient-primary {
+    background-color: var(--major);
+    background-image: none;
+}
+
+.card-header {
+    padding: 7px 15px;
+}
+
+.card-header h6 {
+    font-size: 18px;
+}
+
+.modal-header {
+    padding: 6px 15px;
+}
+
+.btn {
+    border-radius: 2px;
+}
+
+
+.text-primary {
+    color: var(--major) !important;
+}
+
+.form-control {
+    border-radius: 3px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--major);
+}
+
+.modal-content {
+    border-radius: 2px;
+}
+
+.table {
+    color: #555;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.table-sm th, .table-sm td {
+    padding: 2px 6px !important;
+}
+.sidebar .nav-item .nav-link {
+    padding: 7px 16px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 4px;
+}
+
+.form-control::placeholder {
+    font-size: 13px;
+    color: #626262 !important;
+}
+
+.form-control {
+    font-size: 13px !important;
+    color: #626262 !important;
+}
+.custom-file-label {
+    border-radius: 3px;
+}
+
+img#output {
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+img#previousImg {
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+label.error {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bf2626;
+    width: 100%;
+}
+
+.form-control.error {
+    width: 100%;
+    border-color: #bf2626;
+}
+
+.table th {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.table td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ajax-loading {
+    text-align: center;
+    width: 100%;
+    background: #33333380;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999999999;
+}
+
+.ajax-loading img {
+    height: 100px;
+    width: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+p.notfound {
+    text-align: center;
+    color: #9d2020;
+    font-size: 18px;
+    padding-top: 13px;
+}
+
+img.tdimg {
+    height: 60px;
+}
+
+.sidebar-brand-text img {
+    width: 100%;
+}
+
+button.btn {
+    cursor: pointer !important;
+}
+
+
+.sidebar .sidebar-brand { 
+    border-bottom: 1px solid #3d5993;
+}
+
+.sidebar-user-box img {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    border: 4px solid #919191;
+}
+
+.sidebar-user-box {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.sidebar-user-box h2 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+.sidebar-user-box h3 {
+    font-size: 15px;
+    color: #9b9b9b;
+}
+
+td.meeting_actions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+td.meeting_actions button {
+    margin: 2px 0;
+}
+
+div#topbar_company_logo img {
+    max-height: 40px;
+    width: auto;
+}
+
+div#changePasswordArea {
+    background: #dfdfdf;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#addMeetingModal button#add-visitor-button {
+    padding: 0px 4px;
+    font-size: 8px;
+}
+
+.sidebar-dark .sidebar-heading { 
+    margin-top: 10px;
+}
+
+.dt-buttons button.dt-button {
+    padding: 1px 7px;
+}
+
+.dt-buttons {
+    margin-bottom: 12px;
+}
+
+table#meetingTable .btn-group .dropdown-toggle {
+    padding: 0px 4px;
+}
+
+table#meetingTable .btn-group .dropdown-menu {
+    min-width: 100px;
+}
+
+table#meetingTableFront button.btn {
+    padding: 0 4px;
+}
+
+@media only screen and (max-width: 550px) {
+    table tr th, table.table tr td {
+        display: block !important;
+        width: 100% important; 
+    }
+    
+    table tr {
+        border: 1px solid #818181 important; 
+    }
+}
